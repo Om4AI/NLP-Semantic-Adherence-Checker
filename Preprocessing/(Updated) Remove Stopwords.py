@@ -31,6 +31,7 @@ def rem_stop1(filepath):
   
 
 def remove_stopwords(path):
+  l1 = [')','(',',','.',';',':','/','?','{','}','[',']','&','!','@','#','$','%','^','*']
   corpus1 = rem_stop1(filepath= path)
   final_corpus = []
   for i in range(len(corpus1)):
