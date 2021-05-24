@@ -26,7 +26,11 @@ def chunk_process_content(tokenized):
       processed.append(a)
 
   # print(processed)
-  t = set(processed)
-  processed = list(t)
-  # processed.sort()
+  # t = set(processed)
+
+  t = []
+  for i in processed:
+    if i not in t:  t.append(i) 
+  # print(t)
+  processed = t
   return processed
