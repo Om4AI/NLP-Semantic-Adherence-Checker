@@ -27,6 +27,7 @@ def rem_stop1(filepath):
                 s = s + temp[j]+" "
         
         if (len(s)>1):fin_corpus.append(s.rstrip())
+        elif (len(s)==0): fin_corpus.append("NULL")
     return fin_corpus
   
 
