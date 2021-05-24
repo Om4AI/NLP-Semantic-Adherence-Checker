@@ -20,12 +20,13 @@ def chunk_process_content(tokenized):
   # print(tagged)
 
   # Extract the required words from the corpus
+  pos = ["NN","NNS","NNP","JJR","JJS","NNPS","JJ"]
   for (a,b) in tagged:
-    if (b == "NN" or b == "NNS" or b=="NNP" or b=="JJR" or b=="JJS" or b=="NNPS" or b=="JJ"):
+    if b in pos:
       processed.append(a)
 
   # print(processed)
   t = set(processed)
   processed = list(t)
-  processed.sort()
+  # processed.sort()
   return processed
