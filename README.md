@@ -1,8 +1,7 @@
 # NLP-Codes
 
-Repository contains code for various Natural Language Processing tasks have ben included in this repository.
+Repository contains code for various Natural Language Processing tasks and the **TF-IDFx Algorithm** developed by me.
 
-### Preprocessing techniques & Algorithms developed by me:
 <p align="center">
 <img src="https://res.cloudinary.com/rsmglobal/image/fetch/t_default/f_auto/q_auto/https://www.rsm.global/singapore/sites/default/files/media/Publications/Our%20Expert%20Insights/rsm-tmt-nlp.jpg"></p>
 
