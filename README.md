@@ -1,4 +1,4 @@
-# NLP-Codes
+# Semantic Adherence Checking using NLP Algorithms
 
 Repository contains code for various Natural Language Processing tasks and the **TF-IDFx Algorithm** developed by me.
 
