@@ -14,8 +14,8 @@
     TF-IDF in short: 
     
     FOR A CERTAIN QUERY -The value of Term Frequency(TF) changes with respect to each document
-    but the value of Inverse Document Frequency(IDF) remains the same as it depends on the full corpus 
-    of documents.
+    but the value of Inverse Document Frequency(IDF) remains the same (Each term has a fixed IDF value-across documents) 
+    as it depends on the full corpus of documents.
     
     Thus for getting the similarity to a certain document: [TF(for that document) * IDF(Common to all docs)]
 
